@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { X, Plus, Search, Download, Trash2, Edit2 } from 'lucide-react';
 import './App.css';
 
-function StudentDatabase() {
+function App() {
   const [students, setStudents] = useState([
     { id: 1, name: 'Alice Johnson', email: 'alice.j@example.com', grade: 'A', status: 'Active' },
     { id: 2, name: 'Bob Smith', email: 'bob.smith@example.com', grade: 'B+', status: 'Active' },
@@ -210,4 +210,4 @@ function StudentDatabase() {
   );
 }
 
-export default StudentDatabase;
+export default App;
